@@ -38,7 +38,21 @@ This application is organized into 5 specialized modules, each designed for a pr
 ### 🏗️ 4. System Architecture (The Logic Flow)
 *   **Workflow Explorer**: A direct visualization of the information pipeline: *User Query -> API Gateway -> LangGraph Orchestrator -> Collaborative Agents*.
 *   **Component Deep Dive**: Technical expanders for the **Agent Swarm** logic and **External Memory** systems.
-*   **Gallery**: High-resolution diagrams showing system-level interactions.
+*   **Gallery**: Collection of architectural diagrams showing the end-to-end data flow.
+
+---
+
+## 📐 System Architecture Visualization
+
+### 🔄 Multi-Agent Interaction Loop
+The system utilizes a complex cyclic graph to manage state and agent transitions.
+![Agent Interaction Loop](Archi_Diagram/Screenshot%202025-12-29%20095148.png)
+
+### 🚀 Deployment Architecture
+The platform is containerized and deployed on AWS using a robust CI/CD pipeline.
+![Deployment Architecture](Archi_Diagram/Screenshot%202025-12-29%20095214.png)
+
+---
 
 ### 📋 5. System Logs (Live Monitoring)
 *   **Analytics Dashboard**: Visual metric cards for *Info Events*, *Errors*, and *Warnings*.
