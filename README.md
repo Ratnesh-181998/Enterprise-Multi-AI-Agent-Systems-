@@ -44,23 +44,42 @@ Experience the application through its five specialized modules:
 *   **Groq-Powered Chat**: Near-instantaneous responses (Llama 3.1) with real-time streaming.
 *   **Quick Start Swarm**: One-click workflows for Blog Posts, Health Advice, Travel Planning, or Debugging.
 *   **Smart Controls**: Integrated "Send" and "Clear" workflow for conversation management.
+<img width="1872" height="789" alt="image" src="https://github.com/user-attachments/assets/11ec13a3-adf0-4a30-922b-fa4295ffe4cd" />
+<img width="1534" height="765" alt="image" src="https://github.com/user-attachments/assets/1e55285f-2d53-465f-ae24-d66bd6251885" />
+<img width="1503" height="752" alt="image" src="https://github.com/user-attachments/assets/980ef2d4-8716-41e2-befe-3602adec2802" />
+<img width="1544" height="748" alt="image" src="https://github.com/user-attachments/assets/aff64683-203f-465f-a4fb-ff6536d89c3f" />
+<img width="1849" height="778" alt="image" src="https://github.com/user-attachments/assets/4268863d-d45d-49d8-b39c-26b0a48ce176" />
+<img width="1909" height="712" alt="image" src="https://github.com/user-attachments/assets/55b2a8ba-5085-47c8-a8f4-0960d4faf77e" />
+<img width="1569" height="750" alt="image" src="https://github.com/user-attachments/assets/76830a46-0a57-4498-a4e3-b2a6dc5a716d" />
+<img width="1461" height="786" alt="image" src="https://github.com/user-attachments/assets/0efd8933-0241-4172-99e5-d85f49f12c81" />
+<img width="1169" height="767" alt="image" src="https://github.com/user-attachments/assets/3c089775-b561-4f17-a324-24b071cdbf5d" />
+<img width="1551" height="760" alt="image" src="https://github.com/user-attachments/assets/f29bf1fb-e487-497f-91e9-6ef09dfeba4b" />
 
 ### 📖 2. About Project (The Mission)
 *   **Detailed Workflow**: A deep dive into the design philosophy.
 *   **Strategic Vision**: Understanding why agents outperform single LLMs for complex reasoning.
+<img width="1527" height="758" alt="image" src="https://github.com/user-attachments/assets/90bb9f18-824f-4d2a-8977-aeb0ba392ce4" />
+<img width="1511" height="767" alt="image" src="https://github.com/user-attachments/assets/c122dd8b-4903-4f3d-9d88-4b58a63232f8" />
+<img width="1624" height="645" alt="image" src="https://github.com/user-attachments/assets/3091c35f-99e6-48a4-9653-173475da4011" />
 
 ### 🔧 3. Tech Stack (The Components)
 *   **Visual Interface**: Interactive cards for the core stack.
 *   **SonarQube Focus**: Detailed explanation of code health monitoring.
+<img width="1589" height="753" alt="image" src="https://github.com/user-attachments/assets/faa65730-c5b2-4a3e-b038-f3095fe31d73" />
+<img width="1518" height="758" alt="image" src="https://github.com/user-attachments/assets/41a35417-8d47-433b-8de8-ea10e8d343ad" />
+<img width="1492" height="768" alt="image" src="https://github.com/user-attachments/assets/2a066a8f-7afb-4a53-a8e8-2ed96ab4844b" />
 
 ### 🏗️ 4. System Architecture
 *   **Workflow Explorer**: Visualization of the information pipeline.
 *   **Deep Dive Expanders**: Technical breakdowns of Agent Swarms and Memory.
+<img width="1584" height="730" alt="image" src="https://github.com/user-attachments/assets/5dda3740-80f9-411f-aabe-f35fac1314e3" />
 
 ### 📋 5. System Logs (Live Diagnostics)
 *   **Metric Cards**: Real-time counts of *Info*, *Errors*, and *Warnings*.
 *   **Scrollable Feed**: Live, color-coded execution logs.
-
+<img width="1566" height="753" alt="image" src="https://github.com/user-attachments/assets/f9a49902-0e1c-4256-8641-89d227ecf251" />
+<img width="1536" height="755" alt="image" src="https://github.com/user-attachments/assets/aad53df8-8f8f-4f97-8a13-5e6e1cc9dfb0" />
+<img width="1568" height="727" alt="image" src="https://github.com/user-attachments/assets/98b94a96-fa13-4f2b-894a-c4e68b6c0267" />
 ---
 
 ## 🛠️ Step-by-Step Implementation Workflow
