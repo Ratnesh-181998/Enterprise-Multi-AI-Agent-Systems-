@@ -11,6 +11,40 @@
 
 ---
 
+## 🛠️ Core Technology Stack
+
+### 🧠 AI & Intelligent Orchestration
+*   **Groq (Llama 3.1)**: State-of-the-art LLM inference engine providing near-zero latency for real-time agent reasoning.
+*   **LangGraph**: Used to build complex, stateful multi-agent workflows with cyclic graph logic.
+*   **LangChain**: The foundational framework for LLM abstraction, tool integration, and prompt management.
+*   **Tavily Search**: Advanced search engine specialized for LLM retrieval and real-time fact-checking.
+
+### 🌐 Full-Stack Application
+*   **FastAPI**: High-performance, asynchronous Python backend for handling agent orchestration and API requests.
+*   **Streamlit**: Interactive and premium frontend dashboard with custom CSS-glassmorphism styling.
+*   **Pydantic**: Robust data validation and settings management.
+
+### 🚀 DevOps, Cloud & LLMOps
+*   **Docker**: Used for standardizing application environments via containerization.
+*   **Jenkins**: Orchestrating automated CI/CD pipelines from commit to cloud deployment.
+*   **SonarQube**: Static Application Security Testing (SAST) and code quality gating.
+*   **AWS ECS Fargate**: Serverless, scalable container orchestration in the cloud.
+*   **GitHub**: Source Code Management (SCM) and version control.
+
+---
+
+## 🛡️ Code Quality & Security Standards (SonarQube)
+
+To ensure enterprise-grade reliability, the project integrates **SonarQube** for continuous code inspection.
+
+### 🔍 Key Checks Performed:
+1.  **Bug Detection**: Identifying logic errors and "Dead Code" (redundant conditions).
+2.  **Code Smells**: Flagging technical debt (e.g., complex 300+ line methods) for refactoring.
+3.  **Code Duplication**: Detecting repetitive blocks across `app.py`, `main.py`, etc., to enforce DRY principles.
+4.  **Security Vulnerabilities**: Scanning for sensitive leaks and insecure patterns.
+
+---
+
 ## 🌟 The Vision
 > **"Orchestrating Intelligence at Scale."**
 > A production-grade, cloud-native Multi-AI Agent ecosystem built using **LangGraph** & **LangChain**, supercharged by **Groq (LPU)** for lightning-fast inference and **Tavily** for real-time web intelligence. Experience a full-stack solution with **FastAPI** backends, **Streamlit** frontends, and a rigorous **DevSecOps** pipeline (Jenkins, SonarQube, Docker) deployed on **AWS ECS Fargate**.
@@ -60,11 +94,11 @@ How FastAPI, LangChain, and Groq communicate.
 The core cyclic graph logic for Research, Routing, and Generation.
 ![Agent Interaction Loop](Archi_Diagram/Screenshot%202025-12-29%20095148.png)
 
-### �️ 5. Integrated Tech Stack
+### ️ 5. Integrated Tech Stack
 Visual representation of the toolset: Groq, Tavily, LangGraph, and Docker.
 ![Tech Stack](Archi_Diagram/Screenshot%202025-12-29%20094816.png)
 
-### �🚀 6. Deployment & Cloud Architecture
+### 🚀 6. Deployment & Cloud Architecture
 Containerization strategy and AWS Cloud infrastructure.
 ![Deployment Architecture](Archi_Diagram/Screenshot%202025-12-29%20095214.png)
 
@@ -78,27 +112,6 @@ Tavily integration and RAG retrieval mechanisms.
 *   **Analytics Dashboard**: Visual metric cards for *Info Events*, *Errors*, and *Warnings*.
 *   **Live Feed**: A color-coded, scrollable log viewer to track every decision the AI agents make.
 *   **Downloadable Diagnostics**: Secure local downloading of system history for offline analysis.
-
----
-
-## 🛠️ Deep Tech Stack & Ecosystem
-
-### 🧠 AI & Orchestration
-*   **LangGraph**: Cyclic graph-based state machine for complex agentic loops.
-*   **Groq LPU**: Specialized hardware for the world's fastest LLM inference.
-*   **Tavily Search**: AI-native search engine designed for perfect RAG retrieval.
-*   **LangChain**: The glue connecting tools, models, and memory.
-
-### 🌐 Full-Stack Application
-*   **FastAPI**: Asynchronous, high-performance REST API backend.
-*   **Streamlit**: Modern, reactive frontend with custom CSS/JS premium styling.
-*   **Pydantic**: Robust data validation and settings management.
-
-### ☁️ DevOps & Cloud Mastery
-*   **Docker**: Fully containerized environment for consistent deployment.
-*   **Jenkins**: Automated CI/CD pipelines for testing and delivery.
-*   **SonarQube**: Static Application Security Testing (SAST) and code quality gating.
-*   **AWS ECS Fargate**: Serverless, scalable container orchestration in the cloud.
 
 ---
 
