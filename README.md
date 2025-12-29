@@ -63,7 +63,7 @@ The application features a premium, user-friendly **Streamlit** dashboard design
 | | **Tavily** | AI-Optimized Web Search Tool |
 | **Application** | **Streamlit** | Interactive Frontend UI |
 | | **FastAPI** | High-Performance Backend API |
-| **DevOps** | **Docker** | Containerization & Portability |
+| **LLMOps** | **Docker** | Containerization & Portability |
 | | **Jenkins** | CI/CD Automation Pipelines |
 | | **SonarQube** | Code Quality & Security Analysis |
 | | **AWS ECS Fargate** | Serverless Cloud Deployment |
