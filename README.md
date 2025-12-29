@@ -160,15 +160,20 @@ streamlit run Multi_Agent_streamlit_app.py
 ```
 
 ---
+### Project Links
 
+- 🌐 **Live Demo**: [Streamlit App]( https://appudtzei3tyyttd6xjhwur.streamlit.app/)
+- 📖 **Documentation**: [GitHub Wiki](https://github.com/Ratnesh-181998/Enterprise-Multi-AI-Agent-Systemsr-/wiki)
+- 🐛 **Issue Tracker**: [GitHub Issues](https://github.com/Ratnesh-181998/Enterprise-Multi-AI-Agent-Systems-/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/Ratnesh-181998/Enterprise-Multi-AI-Agent-Systems-/discussions)
+---
 ## 📞 Connect with the Developer
 
-### **RATNESH KUMAR SINGH**
+### **Rtnesh Kumar Singh**
 *Data Scientist (AI/ML Engineer) | 4+ Years Experience*
 
 | Platform | Link |
 | :--- | :--- |
-| **🌐 Portfolio** | [Live Demo App](https://appudtzei3tyyttd6xjhwur.streamlit.app/) |
 | **📧 Email** | [rattudacsit2021gate@gmail.com](mailto:rattudacsit2021gate@gmail.com) |
 | **💼 LinkedIn** | [ratneshkumar1998](https://www.linkedin.com/in/ratneshkumar1998/) |
 | **🐙 GitHub** | [Ratnesh-181998](https://github.com/Ratnesh-181998) |
