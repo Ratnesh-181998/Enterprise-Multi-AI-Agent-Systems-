@@ -44,17 +44,33 @@ This application is organized into 5 specialized modules, each designed for a pr
 
 ## 📐 System Architecture Visualization
 
-### 🔄 System Workflow & Orchestration
-This diagram explains the high-level orchestration of user requests through the multi-agent graph.
+### 🔄 1. High-Level System Workflow
+Overview of the orchestration logic and main components.
 ![System Workflow](Multi+AI+Agent+Workflow.png)
 
-### 🧩 Multi-Agent Interaction Loop
-The system utilizes a complex cyclic graph to manage state and agent transitions.
+### 🧩 2. Agentic Workflow Construction
+Detailed design of Input, Orchestration, and Output stages.
+![Agentic Workflow](Archi_Diagram/Screenshot%202025-12-29%20095100.png)
+
+### 🛰️ 3. Backend Integration Flow
+How FastAPI, LangChain, and Groq communicate.
+![Backend Integration](Archi_Diagram/Screenshot%202025-12-29%20095126.png)
+
+### 🐝 4. Multi-Agent Interaction Loop
+The core cyclic graph logic for Research, Routing, and Generation.
 ![Agent Interaction Loop](Archi_Diagram/Screenshot%202025-12-29%20095148.png)
 
-### 🚀 Deployment Architecture
-The platform is containerized and deployed on AWS using a robust CI/CD pipeline.
+### �️ 5. Integrated Tech Stack
+Visual representation of the toolset: Groq, Tavily, LangGraph, and Docker.
+![Tech Stack](Archi_Diagram/Screenshot%202025-12-29%20094816.png)
+
+### �🚀 6. Deployment & Cloud Architecture
+Containerization strategy and AWS Cloud infrastructure.
 ![Deployment Architecture](Archi_Diagram/Screenshot%202025-12-29%20095214.png)
+
+### 🔍 7. Real-time Search & Search Strategy
+Tavily integration and RAG retrieval mechanisms.
+![Search Strategy](Archi_Diagram/Screenshot%202025-12-29%20095240.png)
 
 ---
 
