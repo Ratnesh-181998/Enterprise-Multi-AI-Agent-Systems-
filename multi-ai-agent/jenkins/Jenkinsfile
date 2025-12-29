@@ -1,0 +1,11 @@
+pipeline {
+  agent any
+  stages {
+    stage('Build') {
+      steps { sh 'docker build -t multi-ai-agent .' }
+    }
+    stage('Deploy') {
+      steps { echo 'Deploy to AWS' }
+    }
+  }
+}
