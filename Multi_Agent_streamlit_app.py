@@ -297,25 +297,26 @@ with tab1:
         last_user_query = st.session_state.messages[-1]["content"]
         
         # Call Backend
-        API_URL = "http://127.0.0.1:9999/chat"
-        payload = {
-            "model_name": model,
-            "system_prompt": agent_name,
-            "messages": [last_user_query],
-            "allow_search": allow_search
-        }
-        
+        # Direct Internal Call (Fix for Streamlit Cloud)
         try:
+            from app.core.ai_agent import get_response_from_ai_agents
+            
             with st.spinner(f"🤖 {agent_name} is thinking & searching..."):
-                response = requests.post(API_URL, json=payload)
-                if response.status_code == 200:
-                    ans = response.json().get("response", "No response")
-                    st.session_state.messages.append({"role": "assistant", "content": ans})
-                    st.rerun()
-                else:
-                    st.error(f"Backend Error: {response.text}")
+                # Call the agent logic directly
+                response_text = get_response_from_ai_agents(
+                    llm_id=model,
+                    query=[last_user_query],
+                    allow_search=allow_search,
+                    system_prompt=agent_name
+                )
+                
+                st.session_state.messages.append({"role": "assistant", "content": response_text})
+                st.rerun()
+
         except Exception as e:
-            st.error(f"Connection Failed: {str(e)}")
+            st.error(f"Processing Error: {str(e)}")
+            # Optional: Fallback to API if you still want to keep that option
+            # requests.post(API_URL, ...)
 
 # --- TAB 2: ABOUT ---
 with tab2:
