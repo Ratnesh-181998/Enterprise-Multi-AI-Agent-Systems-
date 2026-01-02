@@ -204,3 +204,16 @@ streamlit run Multi_Agent_streamlit_app.py
 MIT License © 2025 | Powered by **Git LFS**
 
 <p align="center">Made with ❤️ for the AI Community</p>
+
+---
+*Built with passion for the AI Community. 🚀*
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%">
+  
+</div>
+
