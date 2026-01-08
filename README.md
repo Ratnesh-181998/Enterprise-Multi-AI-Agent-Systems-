@@ -23,6 +23,14 @@
 🚀 **Try it now:**
 - **Streamlit Profile** - https://share.streamlit.io/user/ratnesh-181998
 - **Project Demo** - https://appudtzei3tyyttd6xjhwur.streamlit.app/
+  
+---
+
+### 🎬 Live Project Demo
+> Experience the full flow:
+
+![Project Demo Walkthrough](sequential_tour.gif)
+
 ---
 
 ## � Table of Contents
